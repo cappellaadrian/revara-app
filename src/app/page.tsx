@@ -50,7 +50,7 @@ export default function RevaraHome() {
             <a href="#connect" className="hover:text-white transition-colors">Connect</a>
           </div>
           <div className="flex items-center gap-3">
-            <a href="https://capflow-bim.vercel.app" className="text-sm text-zinc-400 hover:text-white transition-colors px-3 py-1.5">BuiltIQ Studio</a>
+            <a href="https://capflow-bim.vercel.app" className="text-sm text-zinc-400 hover:text-white transition-colors px-3 py-1.5">REVARA Studio</a>
             <a href="#connect" className="text-sm bg-violet-600 hover:bg-violet-700 px-4 py-2 rounded-lg font-medium transition-all hover:shadow-lg hover:shadow-violet-600/20">Get Started</a>
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function RevaraHome() {
               Connect Your Software
             </a>
             <a href="https://capflow-bim.vercel.app" className="w-full sm:w-auto px-8 py-3.5 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl text-[15px] font-medium transition-all">
-              Open BuiltIQ Studio →
+              Open REVARA Studio →
             </a>
           </div>
         </div>
@@ -146,12 +146,12 @@ export default function RevaraHome() {
               </div>
             ))}
 
-            {/* BuiltIQ Studio card */}
+            {/* REVARA Studio card */}
             <div className="group p-6 rounded-2xl border border-violet-500/20 bg-violet-600/5 hover:bg-violet-600/10 transition-all hover:-translate-y-1">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-3xl">🌐</span>
                 <div>
-                  <h3 className="text-lg font-bold">BuiltIQ Studio</h3>
+                  <h3 className="text-lg font-bold">REVARA Studio</h3>
                   <p className="text-xs text-zinc-500">Web App — PM, Takeoff, Estimation</p>
                 </div>
               </div>
@@ -257,7 +257,7 @@ export default function RevaraHome() {
             {[
               { step: "1", title: "Install Plugin", desc: "Load the REVARA plugin into your BIM software. Revit: drop the .dll in the addins folder. Rhino: run the Python script." },
               { step: "2", title: "Start MCP Server", desc: "Run npx revara-mcp in your terminal. The server bridges Claude to your software via TCP." },
-              { step: "3", title: "Talk to Claude", desc: "Open Claude Desktop or BuiltIQ Studio. Start describing what you want to build. AI does the rest." },
+              { step: "3", title: "Talk to Claude", desc: "Open Claude Desktop or REVARA Studio. Start describing what you want to build. AI does the rest." },
             ].map(s => (
               <div key={s.step} className="p-6 rounded-2xl border border-white/5 bg-white/[0.02]">
                 <div className="text-4xl font-black text-white/5 mb-3">{s.step}</div>
@@ -285,7 +285,7 @@ export default function RevaraHome() {
           <p className="text-zinc-400 mt-4 text-lg">248 tools. 5 platforms. Free forever.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <a href="https://capflow-bim.vercel.app/register" className="px-10 py-4 rounded-xl text-lg font-semibold transition-all hover:-translate-y-0.5" style={{ background: "linear-gradient(135deg, #3B82F6, #8B5CF6)", boxShadow: "0 8px 32px rgba(139,92,246,0.3)" }}>
-              Start with BuiltIQ Studio
+              Start with REVARA Studio
             </a>
           </div>
         </div>
@@ -304,7 +304,7 @@ export default function RevaraHome() {
           <div className="flex gap-6 text-xs text-zinc-600">
             <a href="#connectors" className="hover:text-white transition-colors">Connectors</a>
             <a href="#tools" className="hover:text-white transition-colors">Tools</a>
-            <a href="https://capflow-bim.vercel.app" className="hover:text-white transition-colors">BuiltIQ Studio</a>
+            <a href="https://capflow-bim.vercel.app" className="hover:text-white transition-colors">REVARA Studio</a>
           </div>
           <p className="text-[10px] text-zinc-700">&copy; 2026 REVARA by Cappella. Open source under Apache 2.0.</p>
         </div>

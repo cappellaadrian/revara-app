@@ -4,17 +4,26 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
+    "postinstall": "prisma generate",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^7.6.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/three": "^0.183.1",
     "autoprefixer": "^10.4.27",
+    "bcryptjs": "^3.0.3",
     "clsx": "^2.1.1",
     "next": "14.2.28",
+    "next-auth": "^4.24.11",
+    "prisma": "^5.22.0",
     "react": "^18",
     "react-dom": "^18",
-    "tailwind-merge": "^3.5.0"
+    "tailwind-merge": "^3.5.0",
+    "three": "^0.160.0",
+    "web-ifc": "^0.0.77"
   },
   "devDependencies": {
     "@types/node": "^20",
