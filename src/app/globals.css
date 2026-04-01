@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #050507;
+  color: #E4E4E7;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #27272A; border-radius: 99px; }
+
+.glow-blue { box-shadow: 0 0 60px rgba(59,130,246,0.15); }
+.glow-violet { box-shadow: 0 0 60px rgba(139,92,246,0.15); }
+.glow-emerald { box-shadow: 0 0 60px rgba(16,185,129,0.15); }
