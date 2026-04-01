@@ -1,4 +1,5 @@
 {
-  "buildCommand": "npx prisma generate && npx next build",
-  "installCommand": "npm install --legacy-peer-deps"
+  "buildCommand": "npx prisma@5.22.0 generate && npx next build",
+  "installCommand": "npm install --legacy-peer-deps",
+  "framework": "nextjs"
 }
