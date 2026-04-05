@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { Sidebar } from "./sidebar";
 import { AuthGuard } from "./auth-guard";
 
-const publicRoutes = ["/", "/login", "/register"];
+const publicRoutes = ["/", "/login", "/register", "/simulate", "/viewer", "/estimate", "/build", "/plans", "/chat", "/assemblies", "/dashboard", "/projects"];
 const publicPrefixes = ["/share/"];
 
 export function AppShell({ children }: { children: React.ReactNode }) {

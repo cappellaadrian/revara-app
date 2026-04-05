@@ -6,6 +6,7 @@ import { useSession, signOut } from "next-auth/react";
 import { Logo } from "@/components/ui/logo";
 
 const navItems = [
+  { name: "4D Simulator", href: "/simulate", emoji: "🏗️" },
   { name: "Master Builder", href: "/build", emoji: "⚡" },
   { name: "Plans & Takeoff", href: "/plans", emoji: "📐" },
   { name: "3D Viewer", href: "/viewer", emoji: "🧊" },
